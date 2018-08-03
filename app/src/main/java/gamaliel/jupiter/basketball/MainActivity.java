@@ -27,6 +27,9 @@ public class MainActivity extends AppCompatActivity {
                     mTextMessage.setText(R.string.title_notifications);
                     return true;
             }
+
+            int number = 1;
+            System.out.print(number); 
             return false;
         }
     };
